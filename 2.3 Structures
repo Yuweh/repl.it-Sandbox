@@ -1,0 +1,11 @@
+struct Person {
+  var name: String
+  func sayHello() {
+    print("Hello, there! My name is \(name)!")
+  }
+}
+
+let person = Person(name: "Jasmine")
+person.sayHello()
+
+//WORKS ON ALL 3 : still for futher testing :D
