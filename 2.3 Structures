@@ -9,3 +9,20 @@ let person = Person(name: "Jasmine")
 person.sayHello()
 
 //WORKS ON ALL 3 : still for futher testing :D
+
+
+//sample code below for STRUCTURES 2
+
+struct Shirt {
+  var size: String
+  var color: String
+	func order() { print("Size \(size) and Color \(color)") }
+}
+ // Defines the attributes of a shirt. 
+
+
+var francisShirt = Shirt(size: "large", color: "red")
+francisShirt.order()
+
+var faeShirt = Shirt(size: "Medium", color: "blue")
+faeShirt.order()
